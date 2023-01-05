@@ -1,0 +1,102 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/NB_LANES
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/COMMA
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rst
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/sysclk
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/refclk_n
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/refclk_p
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/txp
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/txn
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_sync_in
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_prbs_en
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_disp_en
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_lfsr_init
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/data_in
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_ip_ready
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_frame_clk
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rxp
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rxn
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_sync_in
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_prbs_en
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_lanes_on
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_data_en
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/clk_acq
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_frame_clk
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_sync_out
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/frame_out
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/valid_out
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_ip_ready
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_lanes_ready
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_usrclk
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_usrclk
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_rstdone
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_rstdone
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_rst_xcvr
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_rst_xcvr
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_xcvr_pll_lock
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_xcvr_pll_lock
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/xcvr_data_rx
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/xcvr_data_tx
+add wave -noupdate -group tx_rx_esi /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/tx_usrrdy
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/clk
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/rst_esistream
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/sync_esistream
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/prbs_en
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/lane_on
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/clk_acq
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/data_in
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/read_fifo
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/lane_ready
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/decoded_frame_out
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/decoded_data_out
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/decoded_valid_out
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/aligned_data_rdy
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/align_busy
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/aligned_data
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/sync_d
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/rst_logic_2d
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/init_lfsr
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/write_fifo
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/scrambled_data
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/scrambled_data_rdy
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/din_fifo
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/descrambled_data
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/descrambled_data_rdy
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/prbs
+add wave -noupdate -group lane_decoding_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/fifo_empty
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/rst
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/wr_clk
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/rd_clk
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/din
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/wr_en
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/rd_en
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/empty
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/decoded_valid_out
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/decoded_frame_out
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/decoded_data_out
+add wave -noupdate -group output_buffer_0 /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/gen_esistream_hdl/tx_rx_esistream_with_xcvr_1/rx_esistream/lane_decoding_gen(0)/rx_lane_decoding_1/i_output_buffer/rst_n
+add wave -noupdate /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/txrx_frame_checking_1/data_out_12b_d
+add wave -noupdate /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/txrx_frame_checking_1/valid_out
+add wave -noupdate /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/txrx_frame_checking_1/be_status
+add wave -noupdate /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/txrx_frame_checking_1/cb_status
+add wave -noupdate /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/txrx_frame_checking_1/d_ctrl
+add wave -noupdate /tb_tx_rx_esistream_top/tx_rx_esistream_top_1/txrx_frame_checking_1/valid_status
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+quietly wave cursor active 0
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ns
+update
+WaveRestoreZoom {999050 ps} {1000021 ps}

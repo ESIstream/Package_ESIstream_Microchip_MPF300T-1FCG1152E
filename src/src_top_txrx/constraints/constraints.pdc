@@ -1,0 +1,298 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2022.1 2022.1.0.10
+
+# Family: PolarFire , Die: MPF300T , Package: FCG1152
+
+# Date generated: Wed Nov  9 10:23:48 2022 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name CLK_50MHZ_I  \
+    -pin_name AL26             \
+    -fixed true                \
+    -DIRECTION INPUT
+
+
+set_io -port_name DIP1  \
+    -pin_name AH22                  \
+    -fixed true                     \
+    -DIRECTION INPUT
+
+
+set_io -port_name DIP2  \
+    -pin_name AJ21                  \
+    -fixed true                     \
+    -DIRECTION INPUT
+
+set_io -port_name DIP3  \
+    -pin_name AG21                  \
+    -fixed true                     \
+    -DIRECTION INPUT
+
+set_io -port_name DIP4  \
+    -pin_name AH21                  \
+    -fixed true                     \
+    -DIRECTION INPUT
+
+set_io -port_name {LED[0]}  \
+    -pin_name G17                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {LED[1]}  \
+    -pin_name K23                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {LED[2]}  \
+    -pin_name L23                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {LED[3]}  \
+    -pin_name B25                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name SW1  \
+    -pin_name AK20           \
+    -fixed true              \
+    -DIRECTION INPUT
+
+
+set_io -port_name SW2  \
+    -pin_name AM27           \
+    -fixed true              \
+    -DIRECTION INPUT
+
+
+set_io -port_name FTDI_UART1_TXD \
+    -pin_name AL24         \
+    -fixed true            \
+    -DIRECTION INPUT
+
+
+set_io -port_name FTDI_UART1_RXD  \
+    -pin_name AL23         \
+    -fixed true            \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name sso_ref_n  \
+    -pin_name U9        \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name sso_ref_p  \
+    -pin_name U10        \
+    -DIRECTION OUTPUT
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
+set_io -port_name {rxn[0]}  \
+    -pin_name M30           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[1]}  \
+    -pin_name P30           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[2]}  \
+    -pin_name R32           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[3]}  \
+    -pin_name T30           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[4]}  \
+    -pin_name G32           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[5]}  \
+    -pin_name J32           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[6]}  \
+    -pin_name K30           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxn[7]}  \
+    -pin_name L32           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[0]}  \
+    -pin_name M29           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[1]}  \
+    -pin_name P29           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[2]}  \
+    -pin_name R31           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[3]}  \
+    -pin_name T29           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[4]}  \
+    -pin_name G31           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[5]}  \
+    -pin_name J31           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[6]}  \
+    -pin_name K29           \
+    -DIRECTION INPUT
+
+
+set_io -port_name {rxp[7]}  \
+    -pin_name L31           \
+    -DIRECTION INPUT
+
+
+set_io -port_name sso_n  \
+    -pin_name N28        \
+    -DIRECTION INPUT
+
+
+set_io -port_name sso_p  \
+    -pin_name N27        \
+    -DIRECTION INPUT
+
+
+set_io -port_name {txn[0]}  \
+    -pin_name N32           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[1]}  \
+    -pin_name P34           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[2]}  \
+    -pin_name T34           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[3]}  \
+    -pin_name U32           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[4]}  \
+    -pin_name F34           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[5]}  \
+    -pin_name H34           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[6]}  \
+    -pin_name K34           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txn[7]}  \
+    -pin_name M34           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[0]}  \
+    -pin_name N31           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[1]}  \
+    -pin_name P33           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[2]}  \
+    -pin_name T33           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[3]}  \
+    -pin_name U31           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[4]}  \
+    -pin_name F33           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[5]}  \
+    -pin_name H33           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[6]}  \
+    -pin_name K33           \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name {txp[7]}  \
+    -pin_name M33           \
+    -DIRECTION OUTPUT
+
+
